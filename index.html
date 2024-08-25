@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RA2111003010138</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>RA2111003010138</h1> <!-- Replace with your roll number -->
+    <form id="jsonForm">
+      <label for="jsonInput">JSON Input:</label>
+      <textarea id="jsonInput" rows="4" cols="50"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="error" class="error"></div>
+    <div id="response" class="response">
+      <label>
+        <input type="checkbox" value="characters" checked>
+        ALPHABETS
+      </label>
+      <label>
+        <input type="checkbox" value="numbers" checked>
+        NUMBERS
+      </label>
+      <label>
+        <input type="checkbox" value="highestAlphabet" checked>
+        HIGHEST
+      </label>
+      <div id="characters" class="section">
+        <h3>ALPHABETS</h3>
+        <p></p>
+      </div>
+      <div id="numbers" class="section">
+        <h3>Numbers</h3>
+        <p></p>
+      </div>
+      <div id="highestAlphabet" class="section">
+        <h3>Highest Alphabet</h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
